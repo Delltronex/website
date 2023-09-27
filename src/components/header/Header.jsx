@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <header>
       <div className={`${styles.header_content} container`}>
-        <div className={styles.logo_holder} onClick={() => navigate("/")}>
+        <div className={styles.logo_holder} onClick={() => navigate("/Dream-Fitness-Point")}>
           <div className={styles.image_holder}>
             <img src={logo} alt="Logo" />
           </div>
