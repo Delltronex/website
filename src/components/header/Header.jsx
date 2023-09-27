@@ -23,7 +23,7 @@ const Header = () => {
         </div>
         <ul className={active ? `${styles.activeList}` : ""}>
           <li>
-            <Link to="/Fitness-Website">Home</Link>
+            <Link to="/Dream-Fitness-Point">Home</Link>
           </li>
           <li>
             <Link to="/about">About</Link>
