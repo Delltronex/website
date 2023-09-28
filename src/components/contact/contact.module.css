@@ -33,6 +33,7 @@
 }
 
 .second div:last-of-type {
+  border-radius:10px;
   background-color: var(--six);
   padding: 30px;
 }
@@ -44,6 +45,7 @@
 
 .second div:last-of-type form input,
 .second div:last-of-type form textarea {
+  border-radius:10px;
   display: block;
   border: 1px solid var(--seven);
   outline: none;
@@ -64,15 +66,18 @@
 }
 
 .second div:last-of-type button {
+  border-radius:10px;
   background-color: var(--three);
   color: var(--white);
 }
 .second div:last-of-type button:hover {
-  color: var(--three);
+  
+border-radius:10px;  color: var(--three);
 }
 
 .second div:last-of-type button::before {
-  background-color: var(--one);
+  border-radius:10px;
+background-color: var(--one);
 }
 
 @media (max-width: 700px) {
